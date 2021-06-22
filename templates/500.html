@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'partials/head_includes.html' %}
+    <style>
+
+
+
+        .card {
+            padding: 3rem;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            -moz-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        #server_error{
+            font-family: 'Malgun Gothic', cursive;
+            font-size: 10rem;
+            color: #343deb;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        #msg{
+            display: block;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <p id="server_error">500</p>
+    <span id="msg">Lo sentimos, nuestro servidor esta colapsado, vuelva despues.</span>
+    <a href="{{ url_for('index') }}">Regresar al inicio</a>
+</div>
+
+</body>
+</html>
