@@ -1,5 +1,5 @@
-Página de subasta
-Integrates:
+Página de subasta:
+Integrantes:
 - Salvador Eliot Hilares Barrios
 - Diego Antonio Escajadillo Guerrero   
 - Alexander Baldeon Medrano
