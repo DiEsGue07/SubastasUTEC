@@ -22,5 +22,5 @@ six
 SQLAlchemy
 tinify
 urllib3
-Werkzeug
+Werkzeug==0.16.1
 WTForms
